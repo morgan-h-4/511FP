@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load YOLO model (explicitly setting task)
-model = YOLO("yolov8_trained_model_25epoch.pt", task="detect")
+model = YOLO("construction_ppe_yolov8_trained_model_75epoch.pt", task="detect")
 
 # Initialize webcam
 cap = cv2.VideoCapture(0)  
